@@ -1,0 +1,24 @@
+{
+  "name": "chat-practicum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innabatalova/chat-practicum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/innabatalova/chat-practicum/issues"
+  },
+  "homepage": "https://github.com/innabatalova/chat-practicum#readme"
+}
