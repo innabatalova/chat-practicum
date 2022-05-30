@@ -1,0 +1,10 @@
+:root {
+  --whiteBg: #FFFFFF;
+  --blackBg: #000000;
+  --lightGrey: #FBFBFB;
+  --darkGrey: #EFEFEF;
+  --primaryBlue: #2400FF;
+  --secondaryTurq: #02EEFD;
+  --primaryYellow: #FDE402;
+  --errorRed: #FF2F2F;
+}

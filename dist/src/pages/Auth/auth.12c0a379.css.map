@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["src/partials/button.sass"],"sourcesContent":[".main-btn\r\n  width: 100%\r\n  height: 40px\r\n  max-width: 280px\r\n  cursor: pointer\r\n"],"names":[],"version":3,"file":"auth.12c0a379.css.map","sourceRoot":"/__parcel_source_root/"}
