@@ -18,9 +18,12 @@
     "@anikin/parcel-transformer-handlebars": "^1.0.9",
     "@parcel/transformer-sass": "^2.6.0",
     "autoprefixer": "^10.4.7",
-    "parcel": "^2.0.1",
+    "parcel": "^2.6.0",
     "postcss": "^8.4.14",
-    "postcss-simple-vars": "^6.0.3"
+    "postcss-mixins": "^9.0.2",
+    "postcss-nested": "^5.0.6",
+    "postcss-simple-vars": "^6.0.3",
+    "postcss-vars": "^0.1.0"
   },
   "bugs": {
     "url": "https://github.com/innabatalova/chat-practicum/issues"

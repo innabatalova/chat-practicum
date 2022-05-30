@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 @import './normalize.css';
-@import './variables.css';
-@import './pages/Auth/auth.css';
-@import './partials/button.css';
+@import './variables.scss';
+@import './pages/Auth/auth.scss';
+@import './partials/button.scss';

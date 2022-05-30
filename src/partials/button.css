@@ -1,8 +1,0 @@
-.main-btn {
-  width: 100%;
-  height: 40px;
-  max-width: 280px;
-  background-color: var(--primaryYellow);
-  color: var(--whiteBg);
-  cursor: pointer
-}
