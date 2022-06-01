@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap";
 html {
   -webkit-text-size-adjust: 100%;
   line-height: 1.15;
@@ -159,17 +159,74 @@ template, [hidden] {
   --lightGrey: #fbfbfb;
   --darkGrey: #efefef;
   --primaryBlue: #2400ff;
-  --secondaryTurq: #02eefd;
+  --primaryTurq: #02eefd;
+  --secondaryTurq: #00818a;
   --primaryYellow: #fde402;
+  --secondaryYellow: #c5b101;
   --errorRed: #ff2f2f;
 }
 
 * {
-  background-color: var(--primaryYellow);
+  box-sizing: border-box;
   font-family: Inter;
-  font-size: 13px;
   font-style: normal;
   font-weight: 500;
+}
+
+.auth-form {
+  width: 340px;
+  min-width: 340px;
+  height: 450px;
+  background: var(--whiteBg);
+  border-radius: 12px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 30px 30px;
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 12px #00000024;
+}
+
+.auth-form:hover, :active, :focus {
+  box-shadow: 0 0 25px #00000024;
+}
+
+.auth-form__title {
+  text-align: center;
+  color: var(--primaryBlue);
+  margin-bottom: 40px;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.button-wrapper {
+  flex-direction: column;
+  display: flex;
+}
+
+.main-btn_auth {
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 992px) {
+  .auth-form {
+    max-width: 340px;
+    margin: 10% auto auto;
+    position: static;
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .auth-form {
+    width: 90%;
+    max-width: auto;
+    min-width: auto;
+    margin: none;
+  }
 }
 
 .main-btn {
@@ -179,6 +236,46 @@ template, [hidden] {
   background-color: var(--primaryYellow);
   color: var(--whiteBg);
   cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  font-size: 13px;
+  line-height: 13px;
+}
+
+.main-btn:hover {
+  background-color: var(--secondaryYellow);
+}
+
+.auth-form__link {
+  text-align: center;
+  color: var(--primaryTurq);
+  font-size: 11px;
+  line-height: 11px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.auth-form__link:hover, :active, :focus {
+  color: var(--secondaryTurq);
+  outline: none;
+}
+
+.auth-form__input {
+  width: 100%;
+  max-width: 280px;
+  border: none;
+  border-bottom: 1px solid var(--primaryYellow);
+  margin-bottom: 30px;
+}
+
+.auth-form__input:hover, :active, :focus {
+  outline: none;
+}
+
+.auth-form__input_label {
+  color: var(--primaryTurq);
+  font-size: 13px;
+  line-height: 13px;
 }
 
 

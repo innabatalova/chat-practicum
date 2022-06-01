@@ -1,0 +1,19 @@
+.auth-form__input {
+  width: 100%;
+  max-width: 280px;
+  border: none;
+  border-bottom: 1px solid var(--primaryYellow);
+  margin-bottom: 30px;
+}
+
+.auth-form__input:hover,
+:active,
+:focus {
+  outline: none;
+}
+
+.auth-form__input_label {
+  font-size: 13px;
+  line-height: 13px;
+  color: var(--primaryTurq);
+}

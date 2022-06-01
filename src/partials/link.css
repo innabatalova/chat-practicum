@@ -1,0 +1,15 @@
+.auth-form__link {
+  display: inline-block;
+  text-align: center;
+  font-size: 11px;
+  line-height: 11px;
+  color: var(--primaryTurq);
+  text-decoration: none;
+}
+
+.auth-form__link:hover,
+:active,
+:focus {
+  color: var(--secondaryTurq);
+  outline: none;
+}
