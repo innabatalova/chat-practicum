@@ -167,14 +167,10 @@ template, [hidden] {
 }
 
 * {
-<<<<<<< HEAD
   box-sizing: border-box;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
-=======
-  background-color: var(--primaryYellow);
->>>>>>> origin/sprint_1
 }
 
 .auth-form {
@@ -240,7 +236,6 @@ template, [hidden] {
   background-color: var(--primaryYellow);
   color: var(--whiteBg);
   cursor: pointer;
-<<<<<<< HEAD
   border: none;
   border-radius: 8px;
   font-size: 13px;
@@ -280,13 +275,6 @@ template, [hidden] {
 .auth-form__input_label {
   color: var(--primaryTurq);
   font-size: 13px;
-=======
-  border-radius: 8px;
-  font-family: Inter;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 500;
->>>>>>> origin/sprint_1
   line-height: 13px;
 }
 

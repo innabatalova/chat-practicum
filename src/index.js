@@ -1,2 +1,1 @@
-const root = document.getElementById("root");
-root.textContent = "Мой проект спринт_1";
+window.location.href = 'http://localhost:1234/src/pages/Auth/auth.html'

@@ -503,8 +503,7 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"8lqZg":[function(require,module,exports) {
-const root = document.getElementById("root");
-root.textContent = "\u041C\u043E\u0439 \u043F\u0440\u043E\u0435\u043A\u0442 \u0441\u043F\u0440\u0438\u043D\u0442_1";
+window.location.href = "http://localhost:1234/src/pages/Auth/auth.html";
 
 },{}]},["1RB6v","8lqZg"], "8lqZg", "parcelRequirec61c")
 
