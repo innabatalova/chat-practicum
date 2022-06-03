@@ -11,6 +11,8 @@
   cursor: pointer
 }
 
-.main-btn:hover {
+.main-btn:focus,
+:hover,
+:active {
   background-color: var(--secondaryYellow);
 }

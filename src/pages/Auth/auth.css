@@ -5,6 +5,10 @@
   font-weight: 500;
 }
 
+body {
+  background-color: var(--bodyBg);
+}
+
 
 .auth-form {
   position: fixed;
@@ -24,9 +28,9 @@
   border-radius: 12px;
 }
 
-.auth-form:hover,
-:active,
-:focus {
+.auth-form:focus,
+:hover,
+:active {
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.14);
 }
 

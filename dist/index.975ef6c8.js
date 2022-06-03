@@ -503,8 +503,12 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"8lqZg":[function(require,module,exports) {
+//const root = document.getElementById("root");
+//root.textContent = "Мой проект спринт_1";
+//console.log(window);
+const css = require("../dist/index.61d3354a.css");
 window.location.href = "http://localhost:1234/src/pages/Auth/auth.html";
 
-},{}]},["1RB6v","8lqZg"], "8lqZg", "parcelRequirec61c")
+},{"../dist/index.61d3354a.css":"jxEem"}],"jxEem":[function() {},{}]},["1RB6v","8lqZg"], "8lqZg", "parcelRequirec61c")
 
 //# sourceMappingURL=index.975ef6c8.js.map

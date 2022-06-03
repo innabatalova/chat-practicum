@@ -7,9 +7,9 @@
   text-decoration: none;
 }
 
-.auth-form__link:hover,
-:active,
-:focus {
+.auth-form__link:focus,
+:hover,
+:active {
   color: var(--secondaryTurq);
   outline: none;
 }

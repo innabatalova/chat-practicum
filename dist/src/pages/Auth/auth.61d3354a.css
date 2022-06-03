@@ -154,6 +154,7 @@ template, [hidden] {
 }
 
 :root {
+  --bodyBg: #b8f9f9;
   --whiteBg: #fff;
   --blackBg: #000;
   --lightGrey: #fbfbfb;
@@ -171,6 +172,10 @@ template, [hidden] {
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
+}
+
+body {
+  background-color: var(--bodyBg);
 }
 
 .auth-form {

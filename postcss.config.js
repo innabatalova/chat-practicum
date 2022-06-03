@@ -1,10 +1,12 @@
 module.exports = {
-    plugins: [
-        require('postcss-import'),
-        require('postcss-mixins'),
-        require('postcss-simple-vars'),
-        require('postcss-nested'),
-        require('autoprefixer'),
-        
-    ]
+  "modules": true,
+  plugins: [
+      require('precss')({/* ...options */}),
+      require('autoprefixer')({/* ...options */}),
+      require('postcss-import')({/* ...options */}),
+      require('postcss-nested')({/* ...options */}),
+      require('postcss-url')({/* ...options */}),
+      require('postcss-custom-properties')({/* ...options */}),
+  ]
 } 
+

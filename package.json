@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel index.hbs",
     "build": "parcel build index.hbs",
-    "start": "npm run start"
+    "start": "parcel run start"
   },
   "repository": {
     "type": "git",
